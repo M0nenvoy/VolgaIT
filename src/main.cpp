@@ -27,7 +27,7 @@ int main()
 
         bool meet = world.go(direction, Direction::Pass);
         if (meet) { // Елена и Иван встретились
-            std::cout << "Елена и Иван встретились за " << world.getTurnCount() << " ходов.\n";
+            std::cout << "Elena and Ivan have met in " << world.getTurnCount() << " turns.\n";
 
             // Совершим небольшой трюк, чтобы показать Елену на карте
             Position elenaPosition = povIvan.getPosition();
